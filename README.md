@@ -35,7 +35,7 @@ Production client output is in `dist/client`. The included packaging script also
 
 Product videos, forest visual textures and phone frame originate from the user-provided Yidan Gong Our Story portfolio page. Video clips have been transcoded for web playback; they are product prototypes, not a live collaborative app. The visible phone and tablet views show the child-describes / parent-selects interaction.
 
-The logo uses the original image attachment recovered from the prior “获取SVG矢量图” chat. The later approved Demi SVG was referenced in that chat as a sandbox download but could not be retrieved locally; the original raster image is used without recreating or changing the logo. Replace `public/assets/ourstory-logo.png` with the approved transparent/vector asset when available and update the two image references if the extension changes.
+The website uses the supplied Avenir Next Demi SVG, with its canvas widened to 1280 so the final y is fully visible.
 
 Contact address: `info@ourstory.team`. The early access flow prepares an email draft; it does not submit, store or transmit form data. The user must send the email from their mail application. No mailing service or signup backend is connected.
 
@@ -44,3 +44,7 @@ Typography: DM Sans (Google Fonts) with Avenir Next/sans-serif fallback; Georgia
 ## Before public launch
 
 Confirm early access wording and device requirements against the actual release, replace the raster logo with the final asset, and add approved privacy/terms content and an actual registration service if needed. This deliverable is the requested homepage, not the Our Story learning app.
+
+## GitHub Pages
+
+The workflow `.github/workflows/pages.yml` builds and deploys `dist/client` on pushes to `main`. It sets `GITHUB_PAGES=true` for the `/ourstory-site/` base path. Enable GitHub Actions as the repository Pages publishing source.
