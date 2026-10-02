@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="394" viewBox="0 0 1280 394">
+<defs>
+<linearGradient id="gBlueTop" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4F70F7"/><stop offset="1" stop-color="#5576FC"/></linearGradient>
+<linearGradient id="gBlueBottom" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#506FF4"/><stop offset="1" stop-color="#5576FC"/></linearGradient>
+<linearGradient id="gCoral" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF7D60"/><stop offset="1" stop-color="#FF8C71"/></linearGradient>
+<linearGradient id="gCyan" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#37C5D5"/><stop offset="1" stop-color="#31BCCB"/></linearGradient>
+<linearGradient id="gPurple" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#373083"/><stop offset="1" stop-color="#443992"/></linearGradient>
+</defs>
+<path fill="url(#gCoral)" d="M 165.000,60.000 L 265.000,109.000 L 225.000,168.000 L 200.000,116.000 Z"/>
+<path fill="url(#gCyan)" d="M 265.000,109.000 C 290.610,142.435 308.174,187.159 299.000,232.000 L 235.000,263.000 L 225.000,168.000 Z"/>
+<path fill="url(#gBlueBottom)" d="M 299.000,232.000 C 291.175,298.499 232.397,341.614 172.000,357.000 L 132.000,301.000 L 235.000,263.000 Z"/>
+<path fill="url(#gPurple)" d="M 172.000,357.000 C 100.959,355.346 37.872,299.815 17.000,234.000 L 88.000,176.000 C 94.127,221.028 105.859,265.238 132.000,301.000 Z"/>
+<path fill="url(#gBlueTop)" d="M 17.000,234.000 C 5.120,141.399 79.424,69.357 165.000,60.000 L 200.000,116.000 C 160.784,131.008 121.495,149.536 88.000,176.000 Z"/>
+<text x="339" y="280" fill="#111832" font-family="Avenir Next, Avenir, Helvetica Neue, Arial, sans-serif" font-size="200" font-weight="600" letter-spacing="-1.5">ourstory</text>
+</svg>
